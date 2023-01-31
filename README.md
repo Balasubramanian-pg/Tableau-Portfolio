@@ -1,0 +1,3 @@
+# Tableau-Portfolio
+A gallery of all the passion projects that I have completed while learning how to code.
+Tableau is a data visualization tool that can be used across different data-related profiles. These profiles include Data Engineers, Data Scientists, Data Analysts, and Business Analysts, to name a few. The stage at which Tableau can be used may vary from role to role and project to project. Most importantly, the tool is used in the exploration phase, where it showcases vast datasets in different visualizations. On the other hand, Tableau is also used to showcase inferences to end stakeholders and higher management.
