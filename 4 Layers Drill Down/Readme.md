@@ -2,7 +2,7 @@
 
 1. Purpose and outcome
 2. Preparation and naming conventions
-3. Build the four sheets (Year, Quarter, Month, Day)
+3. Build the four sheets (Year, Quarter, Month, Day) <br>
     3.1 Create Sales by Year
     3.2 Duplicate to create Sales by Quarter
     3.3 Duplicate to create Sales by Month
