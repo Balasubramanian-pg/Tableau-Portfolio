@@ -247,14 +247,3 @@ Explanation: Level 1 selection highlights its child subcategories with one color
 * If colors do not change: verify the fields on Color or Detail and check for conflicting color assignments.
 * If headers show NULL or blank text: ensure your header calc returns empty string `""` not NULL. Use `""` for blank text.
 * If performance slows on large datasets: consider extracts or limiting initial rows with context filters.
-
-# 14 Reasoning summary
-
-Steps were derived from the provided transcript and organized into clear, numbered instructions. The approach uses two string parameters and parameter actions to capture user clicks, calculated fields to map parameter values into display logic, and a highlight action to control mark selection appearance. Color fields are calculated to visually distinguish drill levels. The method places all logic inside a single worksheet so the dashboard can present a compact drill user experience.
-
-# 15 ASSUMPTION and points that require verification or are uncertain
-
-* ASSUMPTION: You are using a Tableau Desktop release that supports parameter actions and dynamic visibility of calculated results. If you use an older release, parameter action UI and behavior may differ.
-* ASSUMPTION: Data fields are named exactly `Category`, `Sub-Category`, `Region`, and `Sales`. If your field names differ, substitute them in formulas.
-* Verification recommended: Clearing selection behavior may vary based on exact Tableau patch level. Test clearing selection behavior in your version and adjust action settings accordingly.
-* Verification recommended: If your workbook uses multiple data sources or blends, parameter actions may behave differently. Test interactions when multiple sources are present.
