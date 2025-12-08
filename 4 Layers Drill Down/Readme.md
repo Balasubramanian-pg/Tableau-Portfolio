@@ -3,10 +3,10 @@
 1. Purpose and outcome
 2. Preparation and naming conventions
 3. Build the four sheets (Year, Quarter, Month, Day) <br>
-    3.1 Create Sales by Year
-    3.2 Duplicate to create Sales by Quarter
-    3.3 Duplicate to create Sales by Month
-    3.4 Duplicate to create Sales by Day
+    3.1 Create Sales by Year <br>
+    3.2 Duplicate to create Sales by Quarter <br>
+    3.3 Duplicate to create Sales by Month <br>
+    3.4 Duplicate to create Sales by Day <br>
 4. Create the Date Level parameter and per-sheet text fields
     4.1 Create `Date Level Parameter`
     4.2 Create the text helper fields on each sheet
