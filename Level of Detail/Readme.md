@@ -2,34 +2,32 @@
 
 1. Purpose and expected outcome
 2. Preparation and naming conventions
-3. Use Case 1 Customer order frequency
-    3.1 Goal and explanation
-    3.2 Step by step build (fixed LOD + histogram)
-    3.3 Visual permutations and validation
-    3.4 Troubleshooting and notes
-4. Use Case 2 Cohort analysis (first purchase year cohorts)
-    4.1 Goal and explanation
-    4.2 Step by step LOD build and cohort matrix
-    4.3 How to answer “how many 2018 cohort customers bought in 2020”
-    4.4 Troubleshooting and notes
-5. Use Case 3 Daily profit KPI (profitable vs unprofitable days)
-    5.1 Goal and explanation
-    5.2 Step by step LOD build and tagging logic
-    5.3 Summary view, detail view and interactive filtering
-    5.4 Precision issues and validation
-6. Use Case 4 Percent of total with LOD vs table calculation
-    6.1 Goal and explanation of difference
-    6.2 Step by step LOD fields for grand total and subtotal by region
-    6.3 How to format and test behavior under filters
-    6.4 EXCLUDE variant and when it behaves differently
-7. Use Case 5 New customer acquisition (first order date trend)
-    7.1 Goal and explanation
-    7.2 Step by step LOD build and time series visualization
-    7.3 Running total variant and segmentation
-8. General validation checklist across all use cases
-9. Performance, best practices and maintainability
-10. Reasoning summary
-11. Assumptions and points that require verification or are uncertain
+3. Use Case 1 Customer order frequency <br>
+    3.1 Goal and explanation <br>
+    3.2 Step by step build (fixed LOD + histogram) <br>
+    3.3 Visual permutations and validation <br>
+    3.4 Troubleshooting and notes <br>
+4. Use Case 2 Cohort analysis (first purchase year cohorts) <br>
+    4.1 Goal and explanation <br>
+    4.2 Step by step LOD build and cohort matrix <br>
+    4.3 How to answer “how many 2018 cohort customers bought in 2020” <br>
+    4.4 Troubleshooting and notes <br> 
+5. Use Case 3 Daily profit KPI (profitable vs unprofitable days) <br>
+    5.1 Goal and explanation <br>
+    5.2 Step by step LOD build and tagging logic <br>
+    5.3 Summary view, detail view and interactive filtering <br>
+    5.4 Precision issues and validation <br>
+6. Use Case 4 Percent of total with LOD vs table calculation <br>
+    6.1 Goal and explanation of difference <br>
+    6.2 Step by step LOD fields for grand total and subtotal by region <br>
+    6.3 How to format and test behavior under filters <br>
+    6.4 EXCLUDE variant and when it behaves differently <br>
+7. Use Case 5 New customer acquisition (first order date trend) <br>
+    7.1 Goal and explanation <br>
+    7.2 Step by step LOD build and time series visualization <br>
+    7.3 Running total variant and segmentation <br>
+8. General validation checklist across all use cases <br>
+9. Performance, best practices and maintainability <br>
 
 # 1 Purpose and expected outcome
 
