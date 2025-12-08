@@ -21,8 +21,6 @@
 13. Reasoning summary
 14. ASSUMPTION and points that require verification or are uncertain
 
----
-
 # 1 Purpose and outcome
 
 This is a step by step, production ready procedure to implement a four level date drill down in Tableau. When complete you will be able to:
@@ -34,8 +32,6 @@ This is a step by step, production ready procedure to implement a four level dat
 
 The interaction uses parameters, parameter actions, dynamic zone visibility, and a single shared date filter. Follow the names and formulas exactly for copy/paste ease.
 
----
-
 # 2 Preparation and naming conventions
 
 Use these exact names in the workbook so formulas and actions match the guide:
@@ -46,8 +42,6 @@ Use these exact names in the workbook so formulas and actions match the guide:
 * Dashboard name: `Date Drill Dashboard`
 
 Keeping names consistent avoids errors when wiring actions and filters.
-
----
 
 # 3 Build the four sheets (Year, Quarter, Month, Day)
 
@@ -82,8 +76,6 @@ Keeping names consistent avoids errors when wiring actions and filters.
 5. Verify daily bars or marks are sensibly aggregated.
 
 Note: using Continuous date parts yields a continuous timeline. If your visual requires discrete labels change the pill type accordingly. The instructions above assume continuous date parts to preserve the expand plus controls.
-
----
 
 # 4 Create the Date Level parameter and per-sheet text fields
 
@@ -134,8 +126,6 @@ These are small calculated fields that return a fixed string. They are used as t
 
 Rationale: when the user clicks a mark in a sheet we will pass the corresponding string into `Date Level Parameter` so the dashboard knows which chart to show next.
 
----
-
 # 5 Create Dynamic Zone Visibility Boolean calculations
 
 Create four Boolean calculated fields that return True when the `Date Level Parameter` matches the corresponding text.
@@ -166,8 +156,6 @@ Create four Boolean calculated fields that return True when the `Date Level Para
 
 These are case sensitive. Type the strings exactly as used in the text helper fields and parameter default.
 
----
-
 # 6 Assemble the dashboard and wire zone visibility
 
 1. Create a new dashboard and name it `Date Drill Dashboard`.
@@ -179,8 +167,6 @@ These are case sensitive. Type the strings exactly as used in the text helper fi
 7. Select `Sales by Year` and set Control Visibility Using to `Show Year`. `Sales by Year` will be visible initially because the parameter default is `Year`.
 
 Result: only the sheet matching the parameter value is visible at any time.
-
----
 
 # 7 Create parameter actions that drive the drill path (navigation)
 
@@ -228,8 +214,6 @@ We will create four parameter change actions that change `Date Level Parameter` 
 6. Click OK to close the Actions dialog.
 
 Behavior: clicking a Year sets parameter to `Quarter` so the quarters sheet becomes visible. Clicking a Quarter sets parameter to `Month`, and so on. Clicking a Day sets parameter to `Year` so the dashboard resets.
-
----
 
 # 8 Create parameter actions that drive filtering between levels
 
@@ -286,8 +270,6 @@ From Dashboard > Actions add three Change Parameter actions for filtering:
 
 Note: You do not need a Date Filter action for Day because drilling to Day should set context via the Month action, and Day clicks are used to reset to Year. If you want a Day to populate a date param for very precise filtering create `DATETRUNC('day', [Order Date])` and pass it from `Sales by Day`.
 
----
-
 # 9 Create the single cross-sheet date filter calculation and apply it
 
 Create one calculated field to use as a filter across quarter, month, and day views.
@@ -319,8 +301,6 @@ END
 
 Explanation: When the dashboard is at Quarter level the `Date Filter` keeps only the quarters that belong to the year stored in `Date Parameter`. When at Month level it keeps only months that belong to the selected quarter, and so on.
 
----
-
 # 10 Test and validate the drill flow
 
 Follow this validation sequence exactly to confirm correct behavior.
@@ -334,8 +314,6 @@ Follow this validation sequence exactly to confirm correct behavior.
 7. Test clearing selection behavior for parameter actions. Clicking blank space should reset if you configured clearing to Blank. Otherwise it will keep last value.
 
 If any step fails, consult the Troubleshooting checklist in section 12.
-
----
 
 # 11 Optional polish and UX improvements
 
@@ -351,8 +329,6 @@ If any step fails, consult the Troubleshooting checklist in section 12.
 4. Format tooltips to display the exact date range and measure.
 5. Use color or reference lines to highlight the selected period.
 6. Limit initial data volume with context filters or extracts on large datasets.
-
----
 
 # 12 Troubleshooting checklist
 
@@ -377,26 +353,9 @@ If any step fails, consult the Troubleshooting checklist in section 12.
 
   * Consider using an extract or pre-aggregating the data for daily level, or add initial context filters.
 
----
-
 # 13 Reasoning summary
 
-The implementation separates navigation from filtering. `Date Level Parameter` controls which sheet is visible via dynamic zone visibility. Per-sheet text helper fields are used to pass the target level into that parameter with Change Parameter actions. `Date Parameter` stores the actual date period selected and is populated by secondary Change Parameter actions. A single `Date Filter` calculated field uses `Date Parameter` together with the active level to restrict descendant sheets to the correct parent scope. This design keeps visual swapping and filtering decoupled and predictable.
-
----
-
-# 14 ASSUMPTION and points that require verification or are uncertain
-
-* ASSUMPTION: You are using Tableau Desktop version that supports Dynamic Zone Visibility and parameter actions. These features exist in Tableau 2022.2 and newer, though parameter actions exist earlier. Verify your version.
-* ASSUMPTION: Field names are `Order Date` and `Sales`. If your fields differ, substitute them in helper formulas and date truncations.
-* Verification recommended: Behavior of Clearing Selection for parameter actions can vary slightly by Tableau patch. Test the clearing behavior and adjust to Blank or a default string as desired.
-* Verification recommended: If the workbook uses multiple data sources or data blending, DATETRUNC and parameter action behavior may differ. Test cross-source behavior.
-* Verification recommended: For very large datasets, Day level may be slow. Consider extracts or pre-aggregations.
-
----
-
-If you want, I will now:
-
-1. Produce exact copyable calculated field code for the helper fields and `Date Filter` with variations for different date truncation strategies.
-2. Create a dashboard blueprint listing container positions, sizes, and the complete Actions dialog values as a compact checklist you can follow in Tableau step by step.
-3. Build a debug checklist that prints the current parameter values to the dashboard for troubleshooting.
+The implementation separates navigation from filtering. `Date Level Parameter` controls which sheet is visible via dynamic zone visibility. 
+Per-sheet text helper fields are used to pass the target level into that parameter with Change Parameter actions. 
+`Date Parameter` stores the actual date period selected and is populated by secondary Change Parameter actions. 
+A single `Date Filter` calculated field uses `Date Parameter` together with the active level to restrict descendant sheets to the correct parent scope. This design keeps visual swapping and filtering decoupled and predictable.
