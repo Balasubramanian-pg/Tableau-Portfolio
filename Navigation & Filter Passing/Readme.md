@@ -47,6 +47,7 @@
 - New dashboard → Rename: `Product Details Dashboard`
 - Drag `Product Details` sheet to dashboard
 - Title: "Product Details"
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/e841ba74-54c5-4091-883e-6ea409145c74" />
 
 ## **PART 2: CREATE GLOBAL FILTERS (Filter Passing)**
 
