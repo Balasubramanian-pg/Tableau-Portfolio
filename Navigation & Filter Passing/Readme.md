@@ -85,6 +85,8 @@
 [Global Category] = "(All)" OR [Category] = [Global Category]
 ```
 - Click "OK"
+<img width="762" height="342" alt="image" src="https://github.com/user-attachments/assets/ffe44853-c3e9-48bb-b3bf-822ff6966341" />
+
 
 5.2. **Region Filter Logic:**
 - Create another calculated field
