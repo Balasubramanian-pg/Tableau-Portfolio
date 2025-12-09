@@ -114,6 +114,7 @@
 - Go to `Regional Map` worksheet
 - Drag both calculated fields to Filters shelf
 - Set both to "True" only
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/5c78c71f-ef64-4cee-bf70-78d2cbd8da92" />
 
 6.3. **Apply to Product Details worksheet:**
 - Go to `Product Details` worksheet
