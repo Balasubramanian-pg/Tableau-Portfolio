@@ -74,6 +74,7 @@
 - Add from Field: `Region`
 - Current value: Select first item
 - Click "OK"
+<img width="831" height="981" alt="image" src="https://github.com/user-attachments/assets/e090395d-f37b-4492-b911-c023922c97c8" />
 
 ### **Step 5: Create Calculated Fields for Filter Logic**
 5.1. **Category Filter Logic:**
