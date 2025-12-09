@@ -144,11 +144,11 @@ Do this :
 - Right-click → "Format"
 - Set font size: 12pt
 - Set font color: Blue
-- Add separators: Edit middle text to "📍 Regional |"
-- Edit last text to "📦 Products"
+- Add separators: Edit middle text to "Regional"
+- Edit last text to "Products"
 
 7.3. **Add navigation actions:**
-- Right-click "📍 Regional" text → "Add Action" → "Go to Dashboard"
+- Right-click "Regional" text → "Add Action" → "Go to Dashboard"
 - Name: "Go to Regional Dashboard"
 - Source: Check "Sheets" → Select this text object
 - Target: Select "Regional Analysis Dashboard"
@@ -157,7 +157,7 @@ Do this :
 <img width="747" height="628" alt="image" src="https://github.com/user-attachments/assets/8b1f70c5-cacf-4b76-8334-92e61ba9002e" />
 
 7.4. **Add to Products:**
-- Right-click "📦 Products" text → "Add Action" → "Go to Dashboard"
+- Right-click "Products" text → "Add Action" → "Go to Dashboard"
 - Configure same way to "Product Details Dashboard"
 - Click "OK"
 
@@ -172,15 +172,15 @@ Do this :
 - Ctrl+V to paste
 
 8.2. **Update actions:**
-- Right-click "🏠 Home" → "Add Action" → "Go to Dashboard"
+- Right-click "Home" → "Add Action" → "Go to Dashboard"
 - Point to "Sales Overview Dashboard"
 - Click "OK"
-- Right-click "📦 Products" → Update action to point to Product Details Dashboard
+- Right-click "Products" → Update action to point to Product Details Dashboard
 
 <img width="745" height="630" alt="image" src="https://github.com/user-attachments/assets/6c26a388-96f9-4ab2-9267-9837896857e7" />
 
 8.3. **Add current page indicator:**
-- Edit "📍 Regional" text → Change to "📍 Regional (Current)"
+- Edit "Regional" text → Change to "Regional (Current)"
 - Change color to dark gray (to indicate active page)
 
 ### **Step 9: Add Navigation to Products Dashboard**
@@ -189,9 +189,9 @@ Do this :
 - Paste on Product Details Dashboard
 
 9.2. **Update actions:**
-- Update "🏠 Home" to point to Sales Overview
-- Update "📍 Regional" to point to Regional Analysis
-- Mark current: "📦 Products (Current)"
+- Update "Home" to point to Sales Overview
+- Update "Regional" to point to Regional Analysis
+- Mark current: "Products (Current)"
 
 ## **PART 4: ENABLE FILTER PASSING BETWEEN DASHBOARDS**
 
@@ -219,9 +219,9 @@ Do this :
 - On Sales Overview Dashboard
 - Change `Global Category` to "Technology"
 - Change `Global Region` to "West"
-- Click "📍 Regional" to navigate
+- Click "Regional" to navigate
 - Verify Regional Map shows only West region, Technology category
-- Click "📦 Products" to navigate
+- Click "Products" to navigate
 - Verify Product Details shows only West region, Technology products
 
 ## **PART 5: ADD RESET FILTERS BUTTON**
@@ -250,11 +250,11 @@ Do this :
 ### **Step 13: Add Reset Button to Each Dashboard**
 13.1. **On Sales Overview Dashboard:**
 - Add "Text" object to navigation container
-- Edit text: "🔄 Reset All"
+- Edit text: "Reset All"
 - Place at end of navigation menu
 
 13.2. **Create Reset Action:**
-- Right-click "🔄 Reset All" text → "Add Action" → "Change Parameter"
+- Right-click "Reset All" text → "Add Action" → "Change Parameter"
 - Name: "Reset All Filters"
 - Source: This text object (click "Select Sheeets" → choose the text)
 - Target Parameter: `Reset Trigger`
@@ -288,7 +288,7 @@ Do this :
 - Place in corner
 
 14.3. **Copy Reset Button to other dashboards:**
-- Copy the "🔄 Reset All" text with all its actions
+- Copy the "Reset All" text with all its actions
 - Paste on Regional Analysis Dashboard
 - Paste on Product Details Dashboard
 
@@ -298,11 +298,11 @@ Do this :
 15.1. **Test 1 - Navigation with Filters:**
 - Start on Sales Overview
 - Set Category = "Furniture", Region = "South"
-- Click "📍 Regional" → Should see South region, Furniture only
-- Click "📦 Products" → Should see Furniture products from South only
+- Click "Regional" → Should see South region, Furniture only
+- Click "Products" → Should see Furniture products from South only
 
 15.2. **Test 2 - Reset Functionality:**
-- On any dashboard, click "🔄 Reset All"
+- On any dashboard, click "Reset All"
 - Check both filter parameters reset to "(All)"
 - Verify all data shows (no filters applied)
 
@@ -358,7 +358,7 @@ IF [Global Region] = "(All)" THEN "All Regions" ELSE [Global Region] END
   4. Filters persist when navigating
 
 18.2. **Make it the home page:**
-- Update "🏠 Home" navigation to point to Instructions dashboard
+- Update "Home" navigation to point to Instructions dashboard
 - Or make Sales Overview the default home
 
 ## **TROUBLESHOOTING SPECIFIC ISSUES**
