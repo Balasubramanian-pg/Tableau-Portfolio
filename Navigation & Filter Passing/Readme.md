@@ -129,9 +129,12 @@
 - From left pane, drag "Horizontal Container" to top of dashboard
 - Inside container, drag 3 "Text" objects
 - Edit text boxes (double-click each):
-  1. "🏠 Home"
-  2. "📍 Regional"
-  3. "📦 Products"
+  1. " Home"
+  2. " Regional"
+  3. " Products"
+ Do not do this :
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/97579a06-dbe0-4228-9229-2038630dbb68" />
+Do this :
 
 7.2. **Format navigation:**
 - Select all 3 text boxes (Shift+click)
