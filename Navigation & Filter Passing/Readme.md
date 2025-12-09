@@ -161,6 +161,8 @@ Do this :
 - Configure same way to "Product Details Dashboard"
 - Click "OK"
 
+<img width="746" height="621" alt="image" src="https://github.com/user-attachments/assets/fd006dfe-2f35-4d03-8eb9-d9a60e4ff969" />
+
 ### **Step 8: Add Navigation to Regional Dashboard**
 8.1. **Copy navigation menu:**
 - Go back to Sales Overview Dashboard
