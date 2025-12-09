@@ -107,6 +107,8 @@
 - Check only "True"
 - Click "OK"
 - Repeat for `Apply Region Filter`
+<img width="553" height="800" alt="image" src="https://github.com/user-attachments/assets/af38ce48-69f0-4094-8b03-a00d1e2edb0b" />
+
 
 6.2. **Apply to Regional Map worksheet:**
 - Go to `Regional Map` worksheet
