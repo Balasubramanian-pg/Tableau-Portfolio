@@ -131,10 +131,13 @@
 - Edit text boxes (double-click each):
   1. " Home"
   2. " Regional"
-  3. " Products"
- Do not do this :
+  3. " Products" <br>
+
+Do not do this :
 <img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/97579a06-dbe0-4228-9229-2038630dbb68" />
+
 Do this :
+<img width="1919" height="884" alt="image" src="https://github.com/user-attachments/assets/9cce86c8-6b30-4d41-90a8-ffce96214ead" />
 
 7.2. **Format navigation:**
 - Select all 3 text boxes (Shift+click)
