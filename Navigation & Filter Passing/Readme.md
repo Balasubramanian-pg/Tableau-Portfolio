@@ -64,6 +64,8 @@
 - Current value: Select "(All)" if available, or first category
 - Click "OK"
 
+<img width="834" height="982" alt="image" src="https://github.com/user-attachments/assets/47c9290b-2f89-4184-9daf-38eaaefc0e36" />
+
 4.2. **Create Region Parameter:**
 - Create another parameter
 - Name: `Global Region`
