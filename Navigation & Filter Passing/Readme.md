@@ -154,6 +154,8 @@ Do this :
 - Target: Select "Regional Analysis Dashboard"
 - Click "OK"
 
+<img width="747" height="628" alt="image" src="https://github.com/user-attachments/assets/8b1f70c5-cacf-4b76-8334-92e61ba9002e" />
+
 7.4. **Add to Products:**
 - Right-click "📦 Products" text → "Add Action" → "Go to Dashboard"
 - Configure same way to "Product Details Dashboard"
