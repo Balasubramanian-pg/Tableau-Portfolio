@@ -27,6 +27,7 @@
 - Double-click `State`
 - Drag `Sales` to Color
 - Drag `Profit` to Label
+<img width="1919" height="876" alt="image" src="https://github.com/user-attachments/assets/ecd435b4-7e15-4dce-8a9b-6bac2bb19dc3" />
 
 2.2. **Create dashboard:**
 - New dashboard → Rename: `Regional Analysis Dashboard`
