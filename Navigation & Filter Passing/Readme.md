@@ -19,6 +19,7 @@
 - Rename: `Sales Overview Dashboard`
 - Drag `Sales Summary` sheet to dashboard
 - Add title: Click "Show Dashboard Title" (left pane) → Edit to "Sales Overview"
+<img width="1919" height="886" alt="image" src="https://github.com/user-attachments/assets/0187ce00-b677-4cb4-afd1-359781b18024" />
 
 ### **Step 2: Create Dashboard 2 - "Regional Analysis"**
 2.1. **Create new worksheet:**
