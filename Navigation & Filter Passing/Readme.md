@@ -177,6 +177,8 @@ Do this :
 - Click "OK"
 - Right-click "📦 Products" → Update action to point to Product Details Dashboard
 
+<img width="745" height="630" alt="image" src="https://github.com/user-attachments/assets/6c26a388-96f9-4ab2-9267-9837896857e7" />
+
 8.3. **Add current page indicator:**
 - Edit "📍 Regional" text → Change to "📍 Regional (Current)"
 - Change color to dark gray (to indicate active page)
