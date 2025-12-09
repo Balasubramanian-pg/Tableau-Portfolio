@@ -41,6 +41,7 @@
 - Drag `Sub-Category` to Rows
 - Drag `Sales`, `Profit`, `Quantity` to Columns
 - Change Marks to "Text"
+<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/6c0beee6-070c-434e-8900-5919e8b08c33" />
 
 3.2. **Create dashboard:**
 - New dashboard → Rename: `Product Details Dashboard`
