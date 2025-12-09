@@ -120,6 +120,7 @@
 - Go to `Product Details` worksheet
 - Drag both calculated fields to Filters shelf
 - Set both to "True" only
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/fd0855b8-0dda-4b86-9bbf-089feddb9a62" />
 
 ## **PART 3: ADD NAVIGATION BETWEEN DASHBOARDS**
 
