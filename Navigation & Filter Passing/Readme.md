@@ -12,6 +12,7 @@
 - Change Marks to "Bar"
 - Drag `Profit` to Color
 - Add filter: Right-click `Region` → "Show Filter"
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/f60144c1-1259-4705-94ff-e4e8d35f7600" />
 
 1.2. **Create dashboard:**
 - Click "New Dashboard" icon
