@@ -96,6 +96,8 @@
 [Global Region] = "(All)" OR [Region] = [Global Region]
 ```
 - Click "OK"
+<img width="768" height="346" alt="image" src="https://github.com/user-attachments/assets/1d2c366d-1980-486c-b387-60a4584561a0" />
+
 
 ### **Step 6: Apply Filters to All Worksheets**
 6.1. **Apply to Sales Summary worksheet:**
