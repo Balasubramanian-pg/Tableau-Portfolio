@@ -33,6 +33,7 @@
 - New dashboard → Rename: `Regional Analysis Dashboard`
 - Drag `Regional Map` sheet to dashboard
 - Title: "Regional Analysis"
+<img width="1919" height="886" alt="image" src="https://github.com/user-attachments/assets/0e546542-b057-4075-87fa-f7ef60123cd5" />
 
 ### **Step 3: Create Dashboard 3 - "Product Details"**
 3.1. **Create new worksheet:**
