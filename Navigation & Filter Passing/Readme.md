@@ -1,4 +1,5 @@
-# **COMPLETE NAVIGATION & FILTER PASSING SYSTEM - SUPERSTORE DATA**
+# Navigation & Filter Passing
+
 **Step-by-Step Guide with Exact Clicks**
 
 ## **PART 1: CREATE 3 DASHBOARDS**
