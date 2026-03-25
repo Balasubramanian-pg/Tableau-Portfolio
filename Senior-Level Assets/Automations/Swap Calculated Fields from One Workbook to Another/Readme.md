@@ -1,6 +1,4 @@
-Alright, buckle up. Here's the full breakdown — section by section, line by line.
-
----
+# What this code does?
 
 ## IMPORTS (Lines 1–7)
 
@@ -39,8 +37,6 @@ from datetime import datetime
 ```
 Used only for generating timestamps in backup filenames so you never accidentally overwrite a previous backup.
 
----
-
 ## CONFIGURATION (Lines 14–24)
 
 ```python
@@ -70,8 +66,6 @@ FIELD_MAPPING = {
 }
 ```
 A dictionary of text substitutions applied to every formula being copied. Key = what to find, Value = what to replace it with. Used when the field names differ between the two workbooks. If you don't need any substitutions, leave it as an empty dict `{}`.
-
----
 
 ## UTILITY FUNCTIONS (Lines 31–72)
 
