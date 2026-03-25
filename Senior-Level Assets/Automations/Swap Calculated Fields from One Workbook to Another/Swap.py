@@ -11,9 +11,9 @@ from datetime import datetime
 # CONFIGURATION
 # ─────────────────────────────────────────────
 
-SOURCE_TWBX = r"C:\Users\BalasubramanianPG\OneDrive - DIGTINCTIVE India Private Limited\2026\3. March\25-03-2026\Benefits Analysis V6 Floating KPI Card (24-03-2026).twbx"
+SOURCE_TWBX = r"C:\Users\BalasubramanianPG\OneDrive\3. March\25-03-2026\Benefits Analysis V6 Floating KPI Card (24-03-2026).twbx"
 
-DEST_TWBX   = r"C:\Users\BalasubramanianPG\OneDrive - DIGTINCTIVE India Private Limited\2026\3. March\25-03-2026\HCP Claims 1.twbx"
+DEST_TWBX   = r"C:\Users\BalasubramanianPG\OneDrive\3. March\25-03-2026\HCP Claims 1.twbx"
 
 WORK_DIR   = "temp_tableau_processing"
 BACKUP_DIR = "backup"
